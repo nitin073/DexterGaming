@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: lightslategray;
+            text-align: center;
+        }
+        footer{
+            background-color: darkgray;
+            height: 230px;
+            margin-top: 300px;
+          
+        }
+        ul li{
+            padding-top: 20px;
+            display: flex;
+        }
+        ul li a{
+            
+            text-decoration: none;
+            color: black;     
+           }
+        .Main{
+            text-align: center;
+
+        }
+        h2::first-letter{
+            font-size: 35px;
+            color: darkorange;
+
+        }
+        .Main,.proof,#userside,.UPI{
+            padding-top: 10px;
+
+        }
+        h2 p::first-letter{
+            font-size: 35px;
+            color: darkorange;
+        }
+        #footer ul li a:hover{
+            cursor: pointer;
+        }
+        input{
+            border-radius: 7px;
+        }
+        input::placeholder{
+            font-size: 12px;
+
+        }
+button{
+    background: linear-gradient(lightslategray,lightgray,grey);
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    border: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+button:hover{
+    cursor: pointer;
+    background: radial-gradient(grey,lightgray);
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit"   method="POST" enctype="multipart/form-data">
+    <div class="Main">    
+    <h2>DEXTER <sup>Gaming</sup></h2>
+
+    <input type="hidden" name="access_key"   value="98d17a82-e01a-4865-a8b7-5632f1589f5e">
+
+
+    <div class="UPI">
+        Upi :-  dextergaming123@axl
+    </div> <br>
+     <div>Name :- <input type="text" placeholder="User Name " name="Name"> </div> <br>
+    <div id="proof">
+    For Proof :- 
+    <input type="file" name="attachment" required id="upi">
+    </div>
+
+    <div id="userside"> User Telegram Contact Number <input name="ContactNumber" required pattern="[0-9]{10}" type="tel" type="text" placeholder="Enter Your Telegram No "></div>
+        <button>Submit</button>
+</div>
+
+
+</form>
+      <footer>
+        <div id="footer">
+            <ul>
+                <li> <a href="https://t.me/+IIDHGDrEZiNmYmQ1"> Contact us </a></li>
+                  <li><a href="https://t.me/+_WFoKjgGsPAxYTll" > For Payment Issues </a></li>
+                <!-- <li>Contact us</li> -->
+            </ul>
+        </div>
+      </footer>
+</body>
+</html>
